@@ -1,10 +1,11 @@
 boolean tela1 = true, tela2 = false;
-boolean btn = false;
+PImage img;
 
 void setup(){
   size(800, 500); 
   PFont krona = createFont("KronaOne-Regular.ttf", 128);
   textFont(krona);
+  img = loadImage("prat01.png");
 }
 
 void draw(){
@@ -15,13 +16,21 @@ void draw(){
   }
   
   //QUADRADOS
-  if (tela2){
+   if (tela2){
      desenharQuadrados();
    }
    
-   if (btn){
+   if (escuro){
      escurecer();
    }  
+   else {
+      fill(240);
+   }
+   
+   if (prat01) {
+     imageMode(CENTER);
+     image(img, width/2, height/2, 360, 490);
+   }
 }
 
 void mousePressed(){
@@ -31,8 +40,6 @@ void mousePressed(){
    cursor(ARROW);
  }
  if (tela2 == true){
-   if (mouseX >= 60 && mouseY >= 100 && mouseX <= 140 && mouseY <= 180){
-     btn = true;
-   }
+   pratica01();
  }
 }
