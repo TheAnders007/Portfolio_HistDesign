@@ -13,7 +13,7 @@ void projeto02(){
 
 void showPrat02(){
     if (mouseX > 210 * w && mouseX < 290 * w && mouseY > 100 * h && mouseY < 180 * h) {
-       prat02 = loadImage("projetos/prat02.png");
+       prat02 = loadImage("projetosImg/prat02.png");
        visProj02 = true;
     }
 }

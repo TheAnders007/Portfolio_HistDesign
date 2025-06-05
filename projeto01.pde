@@ -15,7 +15,7 @@ void projeto01(){
 
 void showPrat01(){
     if (mouseX > 60 * w && mouseX < 140 * w && mouseY > 100 * h && mouseY < 180 * h) {
-       prat01 = loadImage("projetos/prat01.png");
+       prat01 = loadImage("projetosImg/prat01.png");
        visProj01 = true;
     }
 }
