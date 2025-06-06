@@ -8,7 +8,19 @@ void projeto04(){
          cursor(HAND);
          fill(240);
     }
+    else if (visProj04 && mouseX > width * 0.225 && mouseX < width * 0.775 && mouseY > 0.05 * height && mouseY < height * 0.95){
+      cursor(HAND); 
+    }
    
+   if (visProj04){
+       fill(100, 100, 100, 100);
+       rect(0, 0, width, height);
+       fill(240); 
+       image(prat04, width/2, height/2, width * 0.55, height * 0.9); 
+       if (visProj04 && mouseX > width * 0.225 && mouseX < width * 0.775 && mouseY > 0.05 * height && mouseY < height * 0.95){
+         cursor(HAND);
+       }
+    }
 }
 
 void showPrat04(){
@@ -16,4 +28,10 @@ void showPrat04(){
        prat04 = loadImage("projetosImg/prat04.png");
        visProj04 = true;
     }
+}
+
+void linkProj04(){
+  if (visProj04 && mouseX > width * 0.275 && mouseX <= width * 0.725  && mouseY > 0.01 * height && mouseY < height * 0.98){
+     link("https://drive.google.com/file/d/1tQS-I3nbyV4_iEgnf7FEJJ22bgtj9QCq/view?usp=drive_link");
+  }
 }
