@@ -9,3 +9,4 @@ icon 6 - <a href="https://www.flaticon.com/br/icones-gratis/piada" title="piada 
 icon 7 - <a href="https://www.flaticon.com/br/icones-gratis/microfone" title="microfone ícones">Microfone ícones criados por Freepik - Flaticon</a>
 icon 8 = <a href="https://www.flaticon.com/br/icones-gratis/livro" title="livro ícones">Livro ícones criados por Freepik - Flaticon</a>
 icon 9 - <a href="https://www.flaticon.com/br/icones-gratis/infografico" title="infografico ícones">Infografico ícones criados por Freepik - Flaticon</a>
+icon 10 - <a href="https://www.flaticon.com/br/icones-gratis/design-de-logotipo" title="design de logotipo ícones">Design de logotipo ícones criados por Freepik - Flaticon</a>
